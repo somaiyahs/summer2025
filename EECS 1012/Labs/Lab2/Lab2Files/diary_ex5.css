@@ -1,0 +1,74 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/paper.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+   border: 2px solid white;
+   margin-left: 10%;
+   margin-right: 10%;
+   background-color: ivory;
+}
+
+
+header > h2{
+    padding: 5px;
+}
+
+
+.content  div{
+    border: 2px solid rgb(216,216,225);
+    background-color: rgb(236,236,245);
+    padding: 15px; /********** this would chnage the look that it wont match the given sample output*********/
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+}
+
+/*
+p{
+    border: 2px solid gray;
+}
+    */
+
+span{
+    color: slategray;
+    font-style: italic;
+}
+
+header{
+    border: 2px solid white;
+    background-color: rgb(216,216,225);
+    text-align: right;
+    padding: 15px;
+}
+
+img{
+    float: right;
+}
+
+article{
+    width: 80%;
+    height: auto;
+    float: right;
+}
+nav{
+    min-width: fit-content;
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+section{
+    overflow: hidden;
+}

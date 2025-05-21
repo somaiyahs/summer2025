@@ -5,32 +5,32 @@
 
 body{
     background-image: url("./images/paper.png");
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content{
-   border: 2px solid blue;
+   border: 2px solid white;
    margin-left: 10%;
    margin-right: 10%;
    background-color: ivory;
 }
 
 
-nav{
-    border: 3px solid orange;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0px;
+header > h2{
+    padding: 5px;
 }
 
-div{
-    border: 2px solid lime;
+
+.content > div{
+    border: 2px solid rgb(216,216,225);
     background-color: rgb(236,236,245);
     padding: 15px; /********** this would chnage the look that it wont match the given sample output*********/
     margin-top: 10px;
+    overflow: hidden;
 }
 
 footer{
-    border: 2px solid magenta;
+    text-align: center;
 }
 
 /*
@@ -40,9 +40,17 @@ p{
     */
 
 span{
-    border: 2px solid cyan;
+    color: slategray;
+    font-style: italic;
 }
 
 header{
-    border: 2px solid green;
+    border: 2px solid white;
+    background-color: rgb(216,216,225);
+    text-align: right;
+    padding: 15px;
+}
+
+img{
+    float: right;
 }
