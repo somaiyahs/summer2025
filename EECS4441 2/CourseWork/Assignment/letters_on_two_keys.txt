@@ -1,0 +1,29 @@
+# ==============
+# L2K definition
+#
+# The design, operation, and rationale for this keyboard are described in
+# "Text Entry Using a Small Number of Buttons" (2007) by MacKenzie and Tanaka-Ishii.
+#
+# ==============
+
+# name
+L2K
+
+# baseline key width, key height (integer, pixels)
+100, 45
+
+# key defintions (letter, x, y, width, factor)
+#
+# NOTE: The values below are scaling factors.  The x and width values
+# are multiplied by the baseline key width.  The y and height values
+# are multiplied by the baseline key height.
+
+# top row:
+ABCDEFGHIJKLM, 0, 0, 2, 1
+NOPQRSTUVWXYZ, 2, 0, 2, 1
+
+# second row:
+Next,     0, 1, 1, 1
+Space,    1, 1, 1, 1
+Enter,    2, 1, 1, 1
+Bksp,     3, 1, 1, 1

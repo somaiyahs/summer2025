@@ -1,0 +1,39 @@
+# ==================================================================================
+# L6K definition - design c
+#
+# The design, operation, and rationale for this keyboard are described in
+# "Text Entry Using a Small Number of Buttons" (2007) by MacKenzie and Tanaka-Ishii.
+#
+# NOTE: The layout here is slighly different from the L6K layout in the above paper.
+#
+# ==================================================================================
+
+# name
+L6K_c
+
+# baseline key width, key height (integer, pixels)
+50, 45
+
+# key defintions (letter, x, y, width, factor)
+#
+# NOTE: The values below are scaling factors.  The x and width values
+# are multiplied by the baseline key width.  The y and height values
+# are multiplied by the baseline key height.
+
+# top row:
+ABCD, 0, 0, 2, 1
+EFGH, 2, 0  2, 1
+Next, 4, 0, 1.5, 1
+
+# 2nd row
+IJKL, 0, 1, 2, 1
+MNOP, 2, 1, 2, 1
+Bksp, 4, 1, 1.5, 1
+
+# 3rd row
+QRSTU, 0, 2, 2, 1
+VWXYZ, 2, 2, 2, 1
+Enter, 4, 2, 1.5, 1
+
+# 4th row
+Space, 0, 3, 5.5, 1

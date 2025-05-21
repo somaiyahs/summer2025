@@ -1,0 +1,55 @@
+# ==========================
+# DVORAK keyboard definition	
+# ==========================
+
+# name
+DVORAK
+
+# baseline key width, key height (integer pixels)
+50, 45
+
+# key defintions (letter, x, y, width, factor)
+#
+# NOTE: The values below are scaling factors.  The x and width values
+# are multiplied by the baseline key width.  The y and height values
+# are multiplied by the baseline key height.
+
+# top row:
+ , 0.000, 0, 2.666, 1
+P, 2.666, 0, 1, 1
+Y, 3.666, 0, 1, 1
+F, 4.666, 0, 1, 1
+G, 5.666, 0, 1, 1
+C, 6.666, 0, 1, 1
+R, 7.666, 0, 1, 1
+L, 8.666, 0, 1, 1
+
+# middle row:
+A, 0, 1, 1, 1
+O, 1, 1, 1, 1
+E, 2, 1, 1, 1
+U, 3, 1, 1, 1
+I, 4, 1, 1, 1
+D, 5, 1, 1, 1
+H, 6, 1, 1, 1
+T, 7, 1, 1, 1
+N, 8, 1, 1, 1
+S, 9, 1, 1, 1
+
+# bottom row:
+ , 0.000, 2, 1.666, 1
+Q, 1.666, 2, 1, 1
+J, 2.666, 2, 1, 1
+K, 3.666, 2, 1, 1
+X, 4.666, 2, 1, 1
+B, 5.666, 2, 1, 1
+M, 6.666, 2, 1, 1
+W, 7.666, 2, 1, 1
+V, 8.666, 2, 1, 1
+Z, 9.666, 2, 1, 1
+ ,10.666, 2, 1.333, 1
+
+# other:
+Space,    3, 3, 6.333, 1
+Enter,   10, 1,     2, 1
+Bksp, 9.666, 0,     2.333, 1
